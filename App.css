@@ -1,0 +1,17 @@
+
+.container {
+  max-width: 400px;
+  margin: auto; 
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 80%; 
+  }
+
+  img {
+    width: 100%; 
+    height: auto; 
+  }
+}
+
